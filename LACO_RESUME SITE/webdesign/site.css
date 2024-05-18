@@ -1,0 +1,134 @@
+body {
+    background-image: linear-gradient(to right, gray, rgb(196, 193, 193));
+}
+header img {
+    width: 180px;
+    height: 100px;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+h1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left:  50px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-family: Poppins;
+}
+button { 
+    background-color: white; 
+    margin-left: 60px; 
+    border-radius: 15px; 
+    padding: 15px; 
+    width: 145px; 
+    border: none; 
+    outline: none;
+    font-family: Poppins;
+    font-size: 14px;
+}
+button a {
+    color: black; 
+    font-size:  14px;
+}
+h2 {
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+    flex: 0 0 200px;
+    margin-left: 300px;
+    margin-right: 100px;
+    font-family: Poppins;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.search-bar input[type="search"] {
+    border:none;
+    outline: none;
+    padding: 1px;
+    font-size: 14px;
+    width:50%;
+    background-color: inherit;
+}
+.search-bar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px 5px;
+    margin-right: 0px;
+    margin-left: 4px;
+}
+::placeholder {
+    font-family: Poppins;
+}
+aside img{
+    border-radius: 5%;
+    height: 400px;
+    width: 300px;
+}
+aside button {
+    background-image: linear-gradient(to right, blue, violet);
+    position: absolute;
+    left: 1%;
+    bottom: 50%;
+    font-family: DM Sans;
+    font-size: 16px;
+}
+footer button {
+    background-color: white; 
+    margin-left: 60px; 
+    border-radius: 30px; 
+    padding: 15px; 
+    width: 250px;
+    height: 70px;
+    border: none; 
+    outline: none;
+    font-family: Poppins;
+    font-size: 14px;
+    position: absolute;
+    left: -2%;
+}
+footer img {
+    position: relative;
+    height: 60px;
+    left: 210px;
+    top: 7px;
+}
+h4 {
+    font-family: Poppins;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    position: relative;
+    right: 35px;
+    bottom: 25px;
+}

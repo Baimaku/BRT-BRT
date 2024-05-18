@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVITY 6: STUDENT INFORMATION FORM</title>
+
+    <link rel="stylesheet" type="text/css" href="LACO_ACTIVITY 6.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="background-image">
+        <header>
+            <img src="PROGRAKERISTA LOGO.png" alt="Logo">
+
+            <h1>Prograkerista Inc.</h1>
+        
+            <nav>
+                <div class="NAVBAR">
+                    <ul class="Menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">About</a></li>
+                        <button><a href="#">Create Account</a></button>
+                        <button><a href="#"><i class="fa-solid fa-user"></i></i>       Log In</a></button>
+                    </ul>
+                </div>    
+            </nav>
+        </header>
+        <header>
+           <nav>
+            <div class="Nav">
+                <h2>Welcome to Prograkerista!</h2>
+                <form class="search-bar">
+                    <div>
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input type="search" name="search_term" placeholder="Enter Search">
+                    </div>
+                </form>
+            </div>
+           </nav>
+        </header>
+        <br>
+        <br>
+        
+        <article>
+            <form action="#">
+                <div>
+                    <h3>STUDENT INFORMATION FORM</h3>
+                    <hr>
+    
+                    <div>
+                        <label for="Course">College Course:</label>
+                            <select>
+                                <option>Select Course</option>
+                                <option>BSIT</option>
+                                <option>BSCS</option>
+                            </select>
+                    </div>
+                    <br>
+            
+                    <div>
+                        <label for="Name">First Name:</label>
+                        <input type="text" id="Fname" name="Fname" placeholder="Enter your First Name" required>
+                    </div>
+                    <br>
+                    
+                    <div>
+                        <label for="Name">Last Name:</label>
+                        <input type="text" id="Lname" name="Lname" placeholder="Enter your Last Name" required>
+                    </div>
+                    <br>
+                    
+                    <div>
+                        <label for="Number">Student ID Number:</label>
+                        <input type="tel" id="Number" name="Number" placeholder="2023*****" maxlength="9">
+                    </div>
+                    <br>
+    
+                    <div>
+                        <label for="Email">Email:</label>
+                        <input type="email" id="mail" name="email" placeholder="ReymarkPogi@gmail.com">
+                    </div>
+                    <br>
+    
+                    <div>
+                        <label for="Password">Password:</label>
+                        <input type="password" id="password" name="pw" placeholder="******" maxlength="6">
+                    </div>
+    
+                    <h3>PROGRAMMING LANGUAGE</h3>
+    
+                    <div>
+                        <label>C#</label>
+                        <input type="checkbox">
+    
+                        <label>Java</label>
+                        <input type="checkbox">
+    
+                        <label>HTML</label>
+                        <input type="checkbox">
+    
+                        <label>CSS</label>
+                        <input type="checkbox">
+                    </div>
+                    <br>
+    
+                    <div style="text-align: center;">
+                         <input type="submit" value="Log In">
+                    </div>
+                </div>
+            </form>
+        </article>
+</body>
+</html>

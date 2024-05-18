@@ -1,0 +1,113 @@
+body {
+    background-image: linear-gradient(to right, skyblue , pink)
+}
+form {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-family: Courier New, Courier, monospace;
+    position: relative;
+}
+::placeholder {
+    font-family: Poppins;
+}
+label {
+    font-weight: bold;
+    font-family: Poppins;
+}
+h3 {
+    text-align: center;
+    font-family: Poppins;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+header img {
+    width: 180px;
+    height: 100px;
+}
+h1 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left:  110px;
+    font-size: 14px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-family: Poppins;
+}
+button { 
+    background-color: white; margin-left: 60px; border-radius: 15px; padding: 15px; width: 145px; border: none; outline: none;
+}
+button a{
+    color: black; font-size:  14px;
+}
+input[type="submit"] {
+    background-color: indianred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Poppins;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px;
+    flex: 0 0 200px;
+    margin-left: 300px;
+    margin-right: 100px;
+    font-family: Poppins;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.search-bar input[type="search"] {
+    border:none;
+    outline: none;
+    padding: 3px;
+    font-size: 14px;
+    width:50%;
+    background-color: inherit;
+}
+.search-bar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-right: 0px;
+    margin-left: 4px;
+}
+h2 {
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+}
